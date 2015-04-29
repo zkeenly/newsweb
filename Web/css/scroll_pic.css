@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+.blk_18 {
+	overflow:hidden;
+	zoom:1;
+	font-size:9pt;
+	border:1px solid #e3e3e3;
+	width:695px;
+	margin-top:12px;
+}
+.blk_18 .pcont {
+	width:640px;
+	float:left;
+	overflow:hidden;
+	padding-left:5px;
+	background-color: #dedede;
+}
+.blk_18 .ScrCont {
+ width:32766px;
+ zoom:1;
+ margin-left:-5px;
+}
+.blk_18 #List1_1, .blk_18 #List2_1 {
+ float:left;
+}
+.blk_18 .LeftBotton, .blk_18 .RightBotton {
+ width:15px;
+ height:120px;
+ float:left;
+ background:url(ax.gif) no-repeat;
+}
+.blk_18 .LeftBotton {
+ background-position: 0 0;
+ margin:8px 5px 0;
+}
+.blk_18 .RightBotton {
+ background-position: 0 -100px;
+ margin:8px 1px 10px 5px;
+}
+.blk_18 .LeftBotton:hover {
+ background-position: -20px 0;
+}
+.blk_18 .RightBotton:hover {
+ background-position: -20px -100px;
+}
+.blk_18 .pl img {
+	display:block;
+	cursor:pointer;
+	border:none;
+	margin:1px auto 1px auto;
+}
+.blk_18 .pl {
+ width:150px;
+ border:1px solid #f3f3f3;
+ float:left;
+ float:left;
+ text-align:center;
+ line-height:24px;
+ color:#333;
+ text-decoration:none;
+}
+.blk_18 a.pl:hover {
+ border:1px solid #5dacec;
+ color:#5dacec;
+ background:#fff;
+}

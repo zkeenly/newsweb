@@ -1,0 +1,5 @@
+E:\project\Csharp\ASP\xtw\MDL\bin\Debug\MDL.dll
+E:\project\Csharp\ASP\xtw\MDL\bin\Debug\MDL.pdb
+E:\project\Csharp\ASP\xtw\MDL\obj\Debug\ResolveAssemblyReference.cache
+E:\project\Csharp\ASP\xtw\MDL\obj\Debug\MDL.dll
+E:\project\Csharp\ASP\xtw\MDL\obj\Debug\MDL.pdb

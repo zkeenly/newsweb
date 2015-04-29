@@ -1,0 +1,14 @@
+E:\project\Csharp\ASP\系团委\DAL\bin\Debug\DAL.dll
+E:\project\Csharp\ASP\系团委\DAL\bin\Debug\DAL.pdb
+E:\project\Csharp\ASP\系团委\DAL\bin\Debug\MOD.dll
+E:\project\Csharp\ASP\系团委\DAL\bin\Debug\MOD.pdb
+E:\project\Csharp\ASP\系团委\DAL\obj\Debug\ResolveAssemblyReference.cache
+E:\project\Csharp\ASP\系团委\DAL\obj\Debug\DAL.dll
+E:\project\Csharp\ASP\系团委\DAL\obj\Debug\DAL.pdb
+E:\project\Csharp\ASP\xtw\DAL\bin\Debug\DAL.dll
+E:\project\Csharp\ASP\xtw\DAL\bin\Debug\DAL.pdb
+E:\project\Csharp\ASP\xtw\DAL\obj\Debug\ResolveAssemblyReference.cache
+E:\project\Csharp\ASP\xtw\DAL\obj\Debug\DAL.dll
+E:\project\Csharp\ASP\xtw\DAL\obj\Debug\DAL.pdb
+E:\project\Csharp\ASP\xtw\DAL\bin\Debug\MDL.dll
+E:\project\Csharp\ASP\xtw\DAL\bin\Debug\MDL.pdb

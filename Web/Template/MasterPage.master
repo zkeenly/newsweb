@@ -1,0 +1,101 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Template_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1 {
+            width: 1024px;
+            height: 166px;
+        }
+        .style2
+        {
+            height: 97px;
+        }
+        .style3
+        {
+            height: 20px;
+            text-align:center;
+        }
+           a:link{color:green;}            /*设置超链接的未被访问前文字颜色为绿色*/
+          a:active{color:red;}            /*设置超链接在被用户激活时文字颜色为红色*/
+          a:visited{color:orange;}        /*设置超链接已被访问过时文字的颜色为橘色*/
+         a:hover{color:blue;}           /*设置超链接在其鼠标悬停时文字的颜色为蓝色*/
+
+        a{text-decoration:none;}
+        h2
+        {
+         background:
+           height:auto;
+        	}
+        .style5
+        {
+            width: 100%;
+        }
+        .style6
+        {
+            text-align: center;
+        }
+        </style>
+</head>
+<body bgcolor="#ff0000">
+    <form id="form1" runat="server">
+    <div>
+        <table align="center" class="style1">
+            <tr>
+                <td class="style2" colspan="7">
+                    <img alt="title" src="image/title.jpg" 
+                        style="width: 1024px; height: 150px" /></td>
+            </tr>
+            <tr>
+                <td bgcolor="Red" class="style3" >
+                    <asp:LinkButton ID="LinkButton8" runat="server" PostBackUrl="~/index.aspx">网站首页</asp:LinkButton>
+                </td>
+                <td bgcolor="Red" class="style3" >
+                    <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/zzjg.aspx">组织机构</asp:LinkButton>
+                </td>
+                <td bgcolor="Red" class="style3" >
+                    <asp:LinkButton ID="LinkButton3" runat="server" PostBackUrl="~/tqkx.aspx">团情快讯</asp:LinkButton>
+                </td>
+                <td bgcolor="Red" class="style3" >
+                    <asp:LinkButton ID="LinkButton4" runat="server" PostBackUrl="~/rylc.aspx">荣誉历程</asp:LinkButton>
+                </td>
+                <td bgcolor="Red" class="style3" >
+                    <asp:LinkButton ID="LinkButton5" runat="server" PostBackUrl="~/xszz.aspx">学生组织</asp:LinkButton>
+                </td>
+                <td bgcolor="Red" class="style3" >
+                    <asp:LinkButton ID="LinkButton6" runat="server" onclick="LinkButton6_Click" 
+                        PostBackUrl="~/wstx.aspx">网上团校</asp:LinkButton>
+                </td>
+                <td bgcolor="Red" class="style3" >
+                    <asp:LinkButton ID="LinkButton7" runat="server" PostBackUrl="~/xgxz.aspx">相关下载</asp:LinkButton>
+                </td>
+                    
+            </tr>
+           
+                
+
+                 
+          
+            </table>
+            
+
+                        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <table class="style5">
+        <tr>
+            <td>
+                <pre id="best-content-166388551" accuse="aContent" class="style6">Copyright ©2013 bdu.edu.cn Powered By [保定学院团委] Version 1.0.0 </br>
+     保定学院网络中心 版权所有</pre>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
